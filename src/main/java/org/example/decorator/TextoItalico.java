@@ -1,8 +1,8 @@
 package org.example.decorator;
 
-public class TextoItalico extends TextoSimples {
-    public TextoItalico(String conteudo) {
-        super(conteudo);
+public class TextoItalico extends TextoDecorator {
+    public TextoItalico(Texto texto) {
+        super(texto);
     }
 
     @Override

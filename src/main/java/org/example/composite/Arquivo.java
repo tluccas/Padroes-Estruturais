@@ -1,6 +1,6 @@
 package org.example.composite;
 
-public class Arquivo {
+public class Arquivo implements ArquivoComposite{
 
     private String nome;
 
@@ -8,6 +8,7 @@ public class Arquivo {
         this.nome = nome;
     }
 
+    @Override
     public void abrir(){
         System.out.println("Abrindo arquivo: " + nome);
     }

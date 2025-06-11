@@ -1,4 +1,5 @@
 package org.example.composite;
 
-public interface ArquivoComponent {
+public interface ArquivoComposite {
+     void abrir();
 }

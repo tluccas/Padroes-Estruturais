@@ -1,5 +1,5 @@
 package org.example.bridge;
 
-public interface MeioEmi {
+public interface MeioEmissao {
     void emitir(String cliente, double valor);
 }

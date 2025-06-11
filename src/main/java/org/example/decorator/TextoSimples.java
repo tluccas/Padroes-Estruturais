@@ -1,6 +1,6 @@
 package org.example.decorator;
 
-public class TextoSimples {
+public class TextoSimples implements Texto{
 
     private String conteudo;
 

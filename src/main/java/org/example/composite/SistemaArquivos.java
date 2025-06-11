@@ -16,7 +16,7 @@ public class SistemaArquivos {
         raiz.adicionaItem(imagens);
         raiz.adicionaItem(documentos);
 
-        raiz.listaConteudo();
+        raiz.abrir();
 
     }
 }
